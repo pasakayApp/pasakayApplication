@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "pasakayApp",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

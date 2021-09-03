@@ -1,0 +1,7 @@
+{
+  "name": "pasakay",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

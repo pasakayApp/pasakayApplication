@@ -1,0 +1,109 @@
+
+ion-content{
+    --ion-background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+.header{
+    margin-top: 1px;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+
+.background-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background: url('../../assets/mainscreen-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ion-card{
+    text-align: center;
+    background: transparent;
+    box-shadow: none;
+
+    img{
+      background-image: #fff;
+      height: 20vmax;
+      width: 17vmax;
+    }
+}
+  
+  a{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 12px;
+  }
+  
+  ion-card-content{
+
+    ion-item{
+      --ion-item-background: transparent;
+      --border-width: 0;
+      --inner-border-width: 0;
+      --highlight-color-focused: none;
+    }
+  
+      ion-input{
+        width: 247px;
+        height: 42px;
+        border-radius: 15px;
+        border: 1px solid rgb(0, 38, 255);
+        font-size: 14px;
+        font-weight: 300;
+        color:rgb(255, 255, 255);
+        --padding-start: 30px;
+        --padding-end: 30px;
+      }
+  }
+  
+    .bottom-section{
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+    ion-button{
+        height: 30px;
+        width: 247px;
+        font-size: 14px;
+        text-transform: none;
+        --background: rgb(0, 38, 255);
+        font-weight: 300;
+        border-radius: 15px;
+        color: #fff;
+      }
+  
+      span{
+        margin-top: 20px;
+        color: #fff;
+        font-weight: 200;
+        font-size: 12px;
+  
+        a{
+          text-decoration: underline;
+          color: #fff;
+          font-weight: 300;
+          font-size: 14px;
+        }
+      }
+
+    ion-button{
+        width: 180px;
+        height: 60px;
+        --border-radius: 40px;
+        --background: rgb(73, 76, 236);
+        color: #fff;
+        box-shadow: cornflowerblue;
+        font-weight: 400;
+        text-transform: none; 
+    }
+}

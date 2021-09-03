@@ -1,0 +1,45 @@
+<ion-content>
+
+  <div class="background-container">
+    
+      <ion-card>
+        
+        <img src="../../assets/logo_pasakay.png">
+
+        <div class="header">
+          <h2>Sign Up with Pasakay</h2>
+        </div>
+
+        <ion-card-header>
+          <ion-card-content>
+
+            <ion-item>
+              <ion-input placeholder="Enter Email Address" type="text" required></ion-input>
+            </ion-item>
+
+            <ion-item>
+              <ion-input placeholder="Enter Password" type="password" required></ion-input>
+            </ion-item>
+
+            <ion-item>
+              <ion-input placeholder="Confirm Password" type="password" required></ion-input>
+            </ion-item>
+
+            <div class= "bottom-section">
+              <ion-button>
+                I'm a Driver
+              </ion-button>
+              <ion-button>
+                I'm a Passenger
+              </ion-button>
+              <span> Already have an account? <a [routerLink]="['/mainscreen']"> Log In </a></span>
+            </div>
+              
+          </ion-card-content>
+        </ion-card-header>
+
+      </ion-card>
+
+    </div>
+
+</ion-content>
